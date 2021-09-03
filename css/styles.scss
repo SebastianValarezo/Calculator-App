@@ -1,0 +1,46 @@
+@import "./themes/themeBlue/themeBlue.scss";
+@import "./themes/themeBlue/themeBlue.scss";
+@import "./themes/themeBlue/themeBlue.scss";
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &.theme1 {
+    background-color: $theme1-main-bg;
+    .logo {
+      color: white;
+    }
+  }
+}
+
+.calculator {
+  width: 100%;
+  max-width: 375px;
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    .logo {
+      font-size: 2rem;
+    }
+  }
+}

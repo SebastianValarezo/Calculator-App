@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main.theme1 {
+  background-color: #3a4764;
+}
+.main.theme1 .logo {
+  color: white;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 375px;
+}
+.calculator .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.calculator .header .logo {
+  font-size: 2rem;
+}/*# sourceMappingURL=styles.css.map */
